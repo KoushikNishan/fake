@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --navbar-height:59px;
+
+}
+
+
+
+#headline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#headline h1{
+    color: rgb(194, 0, 253);
+    text-align: center;
+    font-family: 'bree serif',serif;
+}
+
+#headline h2  p{
+
+    color: rgb(0, 156, 247);
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'bree serif',serif;
+    
+}
+#logoabout img{
+
+    height: 200px; 
+    align-items: center;
+    
+}
+#services{
+    margin: 34px;
+    display: flex;
+
+}
+#services .box{
+    /*
+    border: 2px solid brown;*/
+    padding: 34px;
+    margin: 3px 6px;
+
+    border-radius: 30px;
+    
+
+    
+}
+#services .box :hover{
+    background-color: rgb(141, 198, 216);
+    cursor: pointer;
+    border-radius: 30px;
+
+    
+    
+}
+#services{
+    margin: 34px;
+    display: flex;
+
+}
+#services .box{
+    /*border: 2px solid brown;*/
+    padding: 34px;
+    margin: 3px 6px;
+
+    border-radius: 30px;
+    
+
+    
+}
+#services .box :hover{
+    background-color: rgb(141, 198, 216);
+    cursor: pointer;
+
+    
+    
+}
+#services .box img{
+    height: 150px;
+    margin: auto;
+    display: block;
+    
+    
+}
+#services .h-secondary center{
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+
+/*box2 koushik */
+#service{
+    margin: 34px;
+    display: flex;
+
+}
+#service .boxs{
+    /*border: 2px solid brown;*/
+    padding: 34px;
+    margin: 3px 6px;
+
+    border-radius: 30px;
+    
+
+    
+}
+#service .boxs :hover{
+    background-color: rgb(141, 198, 216);
+    cursor: pointer;
+    border-radius: 30px;
+
+    
+    
+}
+#service{
+    margin: 34px;
+    display: flex;
+
+}
+#service .boxs{
+    /*border: 2px solid brown;*/
+    padding: 34px;
+    margin: 3px 6px;
+
+    border-radius: 30px;
+   
+
+    
+}
+#service .boxs :hover{
+    background-color: rgb(141, 198, 216);
+    cursor: pointer;
+
+    
+    
+}
+#service .boxs img{
+    height: 150px;
+    margin: auto;
+    display: block;
+    
+    
+}
+#service .h-secondary-centers{
+    text-align: center;
+}
+
+.centers{
+    text-align: center;
+
+}
+#services .box-color{
+
+    background-color:blueviolet;
+
+    border: 2px brown solid;
+    border-radius: 30px;
+}
+#service .box-color{
+
+    background-color:blueviolet;
+
+    border: 2px brown solid;
+    border-radius: 30px;
+
+}
+#headline .background::before{
+    content: " ";
+    position: absolute;
+    background: url('bg1.jpg');
+    height:25%;
+    width: 100%;
+  
+    z-index: -1;
+    opacity: 0.89;
+
+    
+}
+#margin{
+    padding-bottom: 30px;
+}
+@media only screen and (max-width: 1200px) {
+
+
+#headline .background::before{
+    
+    background: none;
+    
+    
+}
+
+#service{
+
+flex-direction: column;
+
+}
+#services {
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+#services .box img{
+
+
+    justify-content: center;
+    align-items: center;
+}
+#service .boxs img{
+
+
+    justify-content: center;
+    align-items: center;
+}
+#logoabout img{
+    width: 100px;}
+}

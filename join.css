@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --navbar-height:59px;
+
+}
+body{
+    background-color: blueviolet;
+}
+
+.contact-box #name{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .contact-box #add{
+
+        height: 100px;
+        width: 50px;
+
+    }
+
+   .contact-box{
+    justify-content: center;
+    
+   }
+   body{
+    background-color: aquamarine;
+   }
+   .contact-box #name{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+}

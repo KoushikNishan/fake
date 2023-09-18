@@ -76,6 +76,8 @@
     
     margin: auto;
     display: block;
+    border: 2px red solid;
+border-radius: 30px;
 
 }
 .h-primary{
